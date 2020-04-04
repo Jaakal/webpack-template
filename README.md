@@ -28,7 +28,6 @@ $ npx webpack
 
 Now open the `index.html` in the browser.
 
-```
 
 You can instruct webpack to "watch" all files within your dependency graph for changes. If one of these files is updated, the code will be recompiled so you don't have to run the full build manually:
 
