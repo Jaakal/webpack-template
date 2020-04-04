@@ -121,5 +121,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 * Article [How to configure Webpack 4 from scratch for a basic website](https://dev.to/pixelgoo/how-to-configure-webpack-from-scratch-for-a-basic-website-46a5) used as a reference.
 * Video tutorial in [Youtube](https://www.youtube.com/watch?v=ytRnPV0kRN0) used as a reference.
-* Font [Lobster](https://fonts.google.com/specimen/Lobster).
+* Font [Lobster](https://fonts.google.com/specimen/Lobster) used for the main headline.
 * Link to the [background image](https://unsplash.com/photos/nmpW_WwwVSc).
