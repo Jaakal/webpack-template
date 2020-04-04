@@ -1,6 +1,6 @@
 # Webpack Template
 
-Project template for using Webpack as the bundler for a project. Set up with Babel-, SCSS/CSS-, image- and font-loaders. JQuery module is already added, how to import it in the specific module, can be seen in `script-one.js`. I'm using JQuery function `$(document).ready(() => {})` in different modules do describe, in which order the final bundle is composed to together, because that function is executed in multiple bindings in the order it was attached.
+Project template for using Webpack as the bundler for a project. Set up with Babel-, SCSS/CSS-, image- and font-loaders. jQuery module is already added, how to import it in the specific module, can be seen in `script-one.js`. I'm using jQuery function `$(document).ready(() => {})` in different modules do describe, in which order the final bundle is composed to together, because that function is executed in multiple bindings in the order it was attached.
 
 ## Screenshot
 
@@ -29,7 +29,6 @@ $ npx webpack
 Now open the `index.html` in the browser.
 
 ```
-```
 
 You can instruct webpack to "watch" all files within your dependency graph for changes. If one of these files is updated, the code will be recompiled so you don't have to run the full build manually:
 
@@ -39,13 +38,13 @@ $ npx webpack --watch
 
 ### webpack.config.js
 
-The main file for the bundle is set in the entry:
+The main file of which the bundle is created is set in the entry:
 
 ```
 entry: './src/javascript/index.js'
 ```
 
-The output of the JavaScript bundle is set in the output:
+The output file of the JavaScript bundle and its name is set in the output:
 
 ```
 output: {
@@ -54,7 +53,7 @@ output: {
   },
 ```
 
-The output of the CSS bundle is set in the plugins:
+The output file name of the CSS bundle is set in the plugins:
 
 ```
 plugins: [
