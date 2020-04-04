@@ -1,6 +1,6 @@
 # Webpack Template
 
-Project template for using Webpack as the bundler for a project. Set up with Babel-, SCSS/CSS-, image- and font-loaders. jQuery module is already added, how to import it in the specific module, can be seen in `script-one.js`. I'm using jQuery function `$(document).ready(() => {})` in different modules do describe, in which order the final bundle is composed to together, because that function is executed in multiple bindings in the order it was attached.
+Project template for using Webpack as the bundler for a project. Set up with Babel-, SCSS/CSS-, image- and font-loaders. jQuery module is added as well and included globally. I'm using jQuery function `$(document).ready(() => {})` in different modules do describe, in which order the final bundle is composed to together, because that function is executed in multiple bindings in the order it was attached.
 
 ## Screenshot
 
