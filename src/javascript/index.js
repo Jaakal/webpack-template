@@ -1,6 +1,6 @@
-require('../css/reset.css');
-require('../css/style.scss');
-require('../css/index.scss');
+import '../css/reset.css';
+import '../css/style.scss';
+import '../css/index.scss';
 
 /**
  * JavaScript module requirers have to be below the stylesheet imports.
@@ -9,10 +9,11 @@ require('../css/index.scss');
  * **/ 
 
 // Make JQuery globally available before the other module calls,
-// then it's available in the other modules without having to require it. 
-window.$ = window.JQuery = require('jquery');
+// then it's available in the other modules without having to require it.
 
-const thirdHeadline = require('./script-one');
+import $ from 'jquery';
+
+import thirdHeadline from './script-one';
 
 $(document).ready(() => {
   $('body').append(`<div class="third-headline">${thirdHeadline}</div>`);

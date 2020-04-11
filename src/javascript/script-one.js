@@ -1,10 +1,11 @@
-require ('../css/script-one.scss');
+import '../css/script-one.scss';
 
+import secondHeadline from './script-two';
 
-const secondHeadline = require('./script-two');
+import $ from 'jquery';
 
 $(document).ready(() => {
   $('body').append(`<div class="second-headline">${secondHeadline}</div>`);
 });
 
-module.exports = "Hmm... then I'm the third, I guess!?";
+export default "Hmm... then I'm the third, I guess!?";

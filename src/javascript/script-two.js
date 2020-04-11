@@ -1,7 +1,9 @@
-require('../css/script-two.scss');
+import '../css/script-two.scss';
+
+import $ from 'jquery';
 
 $(document).ready(() => {
   $('body').html('<div class="first-headline">I am THE headline!</div>');
 });
 
-module.exports = 'Wait... am I then the Second Headline?';
+export default 'Wait... am I then the Second Headline?';
